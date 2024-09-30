@@ -1,4 +1,38 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+### **Pseudocode: **
+#Generate a random number from 1 to 10              #
+#Print to screen  - Guess the Number from 1 to 10   #
+#Accept the number entered by the player            #
+#Compare Random number to Player number             #
+#if Random number equals Player number              #
+#   print to screen - Yay you are correct           #
+#else                                               #
+#   print to screen - sorry try again               #
+#Allow three tries                                  #
+
+
+...bash
+START
+Set variable 'r' to random number from 1-10
+Set variable 'i' to 1
+Set variable 'p' to 0
+WHILE 'i' is less than equal 3 
+  Print "Guess a number from 1 to 10"
+  Accept input 'p'
+  If 'r' = 'p'
+      Print "Congratulations You are correct"
+      Set 'i' = 4
+  Else 
+      Print "Sorry you are incorrect"
+      'i' = 'i' + 1 
+  Endif
+  If 'i' less than equal 3
+     Print "Please try again"
+  Else
+     Print "Game Over"
+  End
+END WHILE
+END
 

@@ -1,4 +1,15 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+### **Pseudocode:**
 
+...bash
+START
+Set variable 'i' to 2 
+
+WHILE 'i' is less than equal to 50
+    Print "label #" 'i'
+    'i' = 'i' + 2
+END WHILE
+
+END

@@ -1,4 +1,51 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+# My store has can be looked at as a 5X5 square     #
+# The columns are A-E and the rows are 1-5. The     #
+# customer service desk is located in the center of #
+# the store - location C3.                          #
 
+### **Pseudocode:**
+
+...bash
+START
+Set 'cl' to string length 2
+Set 'cl.1' to string length 1
+Set 'cl.2' to string length 1 
+
+Print "If you need assistance to get to the customer 
+service desk please enter your location from the aisle 
+you are in. Example B2"
+Input 'cl'
+set 'cl.1' to 'cl'(1,1)
+set 'cl.2' to 'cl'(2,1)
+If 'cl.1' not in list (A, B, C, D, E) 
+ Or 'cl.2' not in list (1, 2, 3, 4, 5)
+   Print "invalid location - Try again"
+   Go To START
+ENDIF
+If cl.1 = "A"
+   print "go East 2 aisles"
+elseif cl.1 = "B"
+   print "go East 1 aisle"
+elseif cl.1 = "D"
+   print "go West 1 aisle"
+elseif cl.1 = "E"
+   print "go West 2 aisles"
+else
+   print "you are in the correct aisle"
+Endif
+If cl.2 = "1"
+   print "go North 2 aisles"
+elseif cl.2 = "2"
+   print "go North 1 aisle"
+elseif cl.2 = "4"
+   print "go South 1 aisle"
+elseif cl.2 = "5"
+   print "go South 2 aisles"
+Endif
+
+Print "You are at the service desk"
+
+End Start
